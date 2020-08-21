@@ -15,12 +15,20 @@ function moveImageFiles {
     done
 }
 
+MAX_REPLY_COUNT=0
+
 for DATA_PATH in "$LUWEI_DOWNLOAD_PATH"/data/*; do
+    echo $DATA_PATH
     DATA_FILENAME=$(basename $DATA_PATH)
     DATA_PAGE_NUMBER=${DATA_FILENAME%.*}
     
     CONTENT=$(cat $DATA_PATH)
     CONTENT=${CONTENT:11:${#CONTENT}-11-2}
+
+    CURRENT_REPLY_COUNT=$(jq -r '.replyCount' <<< "$CONTENT")
+    if [[ $CURRENT_REPLY_COUNT -gt $MAX_REPLY_COUNT ]]; then
+        MAX_REPLY_COUNT=$CURRENT_REPLY_COUNT
+    fi
     
     if [[ $DATA_PAGE_NUMBER -eq 1 ]]; then
         PROCESSED_DATA=$(jq '. | del(.replys, .replyCount)' <<< "$CONTENT")
@@ -34,3 +42,5 @@ for DATA_PATH in "$LUWEI_DOWNLOAD_PATH"/data/*; do
     FILENAMES=$(jq -r '. | map(select(.fileName? and .fileName != "") | .fileName) | @tsv' <<< "$PROCESSED_DATA")
     moveImageFiles "$FILENAMES"
 done
+
+jq <<< "{ \"reply_count\": $MAX_REPLY_COUNT }" > "$DUMP_PATH/.trace.json"
