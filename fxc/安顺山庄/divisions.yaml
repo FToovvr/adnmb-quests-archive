@@ -1,0 +1,233 @@
+format-version: 1
+
+title: 安顺山庄
+po: fxc8mDE
+
+intro: |
+  * 本家：A岛跑团版 [No.29556631](https://adnmb2.com/t/29556631)  
+  * PO：fxc8mDE
+  * 参与者：众饼干
+
+  许可：[善娑大金天 P326](https://adnmb2.com/t/28470905?page=326) >>No.29315075
+
+defaults:
+  expand-quote-links: true
+  post-style: details-blockquote # blockquote | details-blockquote
+toc: details-blockquote # false (or 'null') | 'details-margin' (or 'details', 'true') | 'details-blockquote' | 'list'
+
+divisions:
+  - title: 原文
+    division-type: file
+    children:
+      - title: 第一日
+        children:
+          - title: 5:50AM｜出发前的客车及附近
+            intro: |
+              * 人物：我、叶袅「小舅子」、万越「压低帽檐」、翁语涵「及肩」、闫欣「马尾」、温婉、王明、司机、吴山「老吴」、韩沐「老板」
+            children:
+              - title: 【车卡】
+                until:
+                  id: 29558032
+                  exclude:
+                    [29556653, 29556905, 29557297, 29557699, 29557718, 29557989]
+                  text-until: 完全是在浪费你的休息时间。
+              - title: 【准备出发】
+                until:
+                  id: 29562283
+                  exclude:
+                    [
+                      [29558782, 29560041, 29560646, 29560759, 29561001],
+                      [29561013, 29562093],
+                    ]
+              - title: 【购买补给】
+                until:
+                  id: 29568703
+                  exclude: [29563211, 29564041, 29564389, 29564915, 29566853]
+                children:
+                  - title: 「PO之音」
+                    only: [29565021, 29565379, 29565471, 29568691]
+              - title: 【回到车上】
+                until:
+                  id: 29570298
+                  text-until: 5分钟后发车了！”
+                  exclude: 29570243
+              - title: 【关于我和老板】
+                until:
+                  id: 29571378
+                  text-until: 你来这算是大材小用了。
+                  exclude: 29571316
+              - title: 【关于「大湾」】
+                until:
+                  id: 29573925
+                  text-until: 他靠边停下打开了客车门。
+                  exclude: [29572434, 29573863]
+                children:
+                  - title: 「PO之音」
+                    only: 29571465
+              - title: 【老板到来】
+                until:
+                  id: 29578646
+                  exclude: [29575261, 29577014, 29578598]
+                children:
+                  - title: 「PO之音」
+                    only: 29578606
+
+          - title: 早晨｜➡️客车路途
+            intro: |
+              * 人物：我、叶袅、万越、翁语涵、闫欣、温婉、王明、司机、吴山、韩沐
+            children:
+              - title: 【询问老板】
+                until:
+                  id: 29592996
+                  exclude: [29578722, 29589313, 29590620, 29591873]
+                children:
+                  - title: 「PO之音」
+                    only: [29589303, 29590489]
+              - title: 【游泳话题】
+                until:
+                  id: 29596751
+                  text-until: 你摇摇头岔开话题说：
+                  exclude: 29594950
+              - title: 【老吴的老婆与「大湾」】
+                until:
+                  id: 29596764
+                  text-until: 你们先聊。”
+              - title: 【邀请万越晚上一起睡】
+                until:
+                  id: 29600154
+                  text-until: “那我先回座位喽。”
+                  exclude: 29600112
+                children:
+                  - title: 「PO之音」
+                    only: 29596813
+              - title: 【小黑询问；网络检索】
+                until:
+                  id: 29600171
+              - title: 老板试探记忆
+                until:
+                  id: 29606859
+                  text-until: 众人附和着他开始忙碌起来。
+                  exclude:
+                    [
+                      [29600677, 29601139, 29601176, 29601209, 29601330],
+                      [29601383, 29601436, 29602204, 29605533, 29605612],
+                    ]
+                children:
+                  - title: 「PO之音」
+                    only: 29602697
+
+          - title: 8:45AM｜➡️「安顺山庄」外
+            intro: |
+              * 人物：我、叶袅、韩沐、吴山
+                * 在场未提及：万越、翁语涵、闫欣、温婉、王明
+            children:
+              - title: 【到达「山庄」；模糊的记忆】
+                until:
+                  id: 29612165
+                  text-until: 树下的韩老板没有说话的站在阴影里。
+                  exclude:
+                    [
+                      [29607044, 29607069, 29608911, 29609192, 29610893],
+                      29610930,
+                    ]
+                children:
+                  - title: 「PO之音」
+                    only: [29607338, 29609020]
+              - title: 【关切叶袅；老吴的警告】
+                until: 29612165
+
+          - title: 上午｜➡️「停车场」➡️「安顺山庄」·一楼·大厅
+            intro: |
+              * 人物：我、叶袅、万越、翁语涵、闫欣、温婉、王明、吴山、韩沐、「面目普通」、「蓝色口罩」、「棕色卷发」、李经理
+            children:
+              - title: 【乒乓球台】
+                until:
+                  id: 29638803
+                  text-until: 他似乎……智商有问题？
+                  exclude: [29621330, 29638722]
+              - title: 【分配房间】
+                until:
+                  id: 29652514
+                  text-until: ”王明不自在的勉强答应。
+                  exclude:
+                    [
+                      [29641551, 29643344, 29643351, 29643356, 29643721],
+                      29652504,
+                    ]
+
+          - title: 上午｜➡️「安顺山庄」·一楼·电梯外
+            intro: |
+              * 人物：我、叶袅、万越、翁语涵、闫欣、温婉、王明、吴山、韩沐、李经理
+                * 中途退场：翁语涵、闫欣、温婉、吴山、李经理
+            children:
+              - title: 【第一批电梯】
+                until:
+                  id: 29654899
+                  text-until: 电梯门关合。
+                  exclude: [29654783, 29654943, 29656046]
+                children:
+                  - title: 「PO之音」
+                    only: 29655604
+              - title: 【关于5楼】
+                until:
+                  id: 29656086
+                  text-until: 话题终结者可能就是指万越这样的人。
+
+          - title: 上午｜➡️「安顺山庄」·一楼·大厅
+            intro: |
+              * 人物：我、叶袅、万越、王明、韩沐
+                * 中途退场：叶袅、万越
+            children:
+              - title: 【前往厕所，韩老板带路】
+                until:
+                  id: 29657878
+                  text-until: 你与王明在韩老板的带领下来到了右边走廊尽头的厕所中。
+                  exclude: 29657844
+
+          - title: 上午｜➡️「安顺山庄」·一楼·厕所
+            intro: |
+              * 人物：我、王明、韩沐
+            children:
+              - title: 【上厕所】
+                until:
+                  id: 29657878
+
+          - title: 上午｜➡️「安顺山庄」·电梯
+            intro: |
+              * 人物：我、叶袅、万越、王明、韩沐、李经理
+            children:
+              - title: 【照片】
+                until:
+                  id: 29660710
+                  exclude: 29660710
+                children:
+                  - title: 「PO之音」
+                    only: 29658235
+
+          - title: 上午｜➡️「安顺山庄」·三楼·「312」
+            intro: |
+              * 人物：我、万越
+            children:
+              - title: 【观察房间；选择睡在靠门的单人床上】
+                until:
+                  id: 29663583
+                  text-until: “……”
+                  exclude: 29663548
+                children:
+                  - title: 「目前可以公开的情报」
+                    only: [29660848, 29660863]
+              - title: 【与万越闲聊，关于万越的金毛「泡泡」】
+                until: 29663588
+
+          - title: ➡️10:00AM｜「安顺山庄」·三楼·「312」
+            intro: |
+              * 人物：我、万越
+            children:
+              - title: 【水龙头里的水】
+                until:
+                  id: 29668186
+                  text-until: 只有一楼的水有问题？
+                  exclude: [29664030, 29667022]
+                children:
+                  - title: 「PO之音」
+                    only: 29663947
