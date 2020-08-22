@@ -10,6 +10,10 @@ intro: |
 
   许可：[善娑大金天 P326](https://adnmb2.com/t/28470905?page=326) >>No.29315075
 
+  由另一位肥肥整理的笔记，已开放编辑及评论权限：
+  [跑团-安顺山庄 — www.notion.so](https://www.notion.so/6a6dd13260df412a89f9b7b471e19852)  
+  初次提及：[原串 P37](https://adnmb2.com/t/29556631?page=37) >>29588417
+
 defaults:
   expand-quote-links: true
   post-style: details-blockquote # blockquote | details-blockquote
@@ -79,10 +83,10 @@ divisions:
               - title: 【询问老板】
                 until:
                   id: 29592996
-                  exclude: [29578722, 29589313, 29590620, 29591873]
+                  exclude: [29578722, 29589303, 29589313, 29590620, 29591873]
                 children:
                   - title: 「PO之音」
-                    only: [29589303, 29590489]
+                    only: 29590489
               - title: 【游泳话题】
                 until:
                   id: 29596751
@@ -182,7 +186,7 @@ divisions:
                 until:
                   id: 29657878
                   text-until: 你与王明在韩老板的带领下来到了右边走廊尽头的厕所中。
-                  exclude: 29657844
+                  exclude: [29657844, 29657851]
 
           - title: 上午｜➡️「安顺山庄」·一楼·厕所
             intro: |
