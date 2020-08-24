@@ -23,7 +23,7 @@ divisions:
   - title: 原文
     division-type: file
     children:
-      - title: 第一日
+      - title: 第一日（8月22日）
         children:
           - title: 5:50AM｜出发前的客车及附近
             intro: |
@@ -101,6 +101,9 @@ divisions:
                   id: 29600154
                   text-until: “那我先回座位喽。”
                   exclude: 29600112
+                post-rules:
+                  29600154:
+                    show-attachment: false
                 children:
                   - title: 「PO之音」
                     only: 29596813
@@ -142,7 +145,7 @@ divisions:
 
           - title: 上午｜➡️「停车场」➡️「安顺山庄」·一楼·大厅
             intro: |
-              * 人物：我、叶袅、万越、翁语涵、闫欣、温婉、王明、吴山、韩沐、「面目普通」、「蓝色口罩」、「棕色卷发」、李经理
+              * 人物：我、叶袅、万越、翁语涵、闫欣、温婉、王明、吴山、韩沐、「面目普通」、「大狗」（「蓝色口罩」）、「棕色卷发」、李经理
             children:
               - title: 【乒乓球台】
                 until:
@@ -168,14 +171,15 @@ divisions:
                 until:
                   id: 29654899
                   text-until: 电梯门关合。
-                  exclude: [29654783, 29654943, 29656046]
                 children:
                   - title: 「PO之音」
                     only: 29655604
+                    exclude: 29654783
               - title: 【关于5楼】
                 until:
                   id: 29656086
                   text-until: 话题终结者可能就是指万越这样的人。
+                  exclude: [29654943, 29656046]
 
           - title: 上午｜➡️「安顺山庄」·一楼·大厅
             intro: |
@@ -202,7 +206,7 @@ divisions:
             children:
               - title: 【照片】
                 until:
-                  id: 29660710
+                  id: 29660729
                   exclude: 29660710
                 children:
                   - title: 「PO之音」
@@ -227,11 +231,207 @@ divisions:
             intro: |
               * 人物：我、万越
             children:
-              - title: 【水龙头里的水】
+              - title: 【询问、检查水龙头里的水】
                 until:
                   id: 29668186
                   text-until: 只有一楼的水有问题？
                   exclude: [29664030, 29667022]
+                post-rules:
+                  29668186:
+                    appended: 29691263
                 children:
                   - title: 「PO之音」
                     only: 29663947
+              - title: 【找万越在网上搜查这里的相关信息】
+                until:
+                  id: 29672657
+                  text-until: “没事，真是「怪谈」我今晚可能就不敢睡了！你读吧。”
+                  exclude:
+                    [
+                      [29668522, 29668713, 29669388, 29669865, 29670650],
+                      29672655,
+                    ]
+              - title: 【怪谈「大湾里死的人都去了哪里？」】
+                until:
+                  id: 29672663
+                  text-until: 说：“云里雾里的，下一篇呢？”
+              - title: 【怪谈「玷污」】
+                until: 29672688
+              - title: 【关于「怪谈」的额外信息】
+                until:
+                  id: 29683136
+                  text-until: 说完你拉开了板门走了出去。
+                  exclude: [29672696, 29681301, 29683113]
+
+          - title: 午前｜➡️「安顺山庄」·三楼走廊
+            intro: |
+              * 人物：我、王明
+            children:
+              - title: 【遇到王明；得知老板去接电话】
+                until:
+                  id: 29690537
+                  exclude: [29686776, 29687664, 29690503]
+                post-rules:
+                  29683136:
+                    appended: 29683212
+                children:
+                  - title: 「PO之音」
+                    only: 29687899
+
+          - title: 午前｜➡️「安顺山庄」·电梯旁的楼梯
+            intro: |
+              * 人物：我、王明
+            children:
+              - title: 【发现楼梯高度不一】
+                until: 29690551
+
+          - title: 午前｜➡️「安顺山庄」·「五」楼·「512」
+            intro: |
+              * 人物：我、王明、叶袅
+            children:
+              - title: 【得知老吴根本没上来】
+                until: 29690570
+              - title: 【观察房间；离开】
+                until:
+                  id: 29693046
+                  text-until: 已经组好队的叶袅与王明对你挥挥手示意你快去快回。
+                  exclude: [29691302, 29692549, 29692585]
+
+          - title: 午前｜➡️「安顺山庄」·远离电梯的楼梯
+            intro: |
+              * 人物：我、韩沐
+            children:
+              - title: 【下楼，老板追随；女生回信老吴相关信息】
+                until:
+                  id: 29693046
+                  text-until: 他让我们到了2层先回屋里。」
+
+          - title: 10:45左右｜➡️湖边
+            intro: |
+              * 人物：我、韩沐、大狗
+                * 中途退场：大狗
+            children:
+              - title: 【见到大狗；老板气喘吁吁】
+                until:
+                  id: 29695373
+                  text-until: “……”
+                  exclude: 29695287
+              - title: 【与大狗交谈；无法联系温婉、老吴】
+                until:
+                  id: 29698675
+                  text-until: 没有人接听。
+                  exclude: [29698398, 29698549]
+                children:
+                  - title: 「目前可以公开的情报」
+                    only: 29695491
+              - title: 【与老板交谈；答应听老板的话】
+                until:
+                  id: 29714360
+                  text-until: “我们上山吧，现在。”
+                  exclude:
+                    [
+                      [29699747, 29700521, 29700726, 29713127, 29713165],
+                      [29713710, 29714324],
+                    ]
+                children:
+                  - title: 「PO之音」
+                    only: [29699853, 29699875]
+              - title: 【准备上山；QQ告知万越、叶袅晚回】
+                until:
+                  id: 29716573
+                  exclude: 29716503
+                post-rules:
+                  29716546:
+                    appended: 29717513
+
+          - title: 午前｜➡️上山的捷径
+            intro: |
+              * 人物：我、韩沐
+            children:
+              - title: 【上山】
+                until:
+                  id: 29716592
+                  text-until: 他怎么这么虚？
+
+          - title: 午前｜➡️山上·寒潭
+            intro: |
+              * 人物：我、韩沐
+                * 中途入场：老吴
+            children:
+              - title: 【老板要求玩水】
+                until:
+                  id: 29721950
+                  text-until: 你俩拔河一样的在潭边拉扯着，
+                  exclude: [29717080, 29717541, 29717616, 29720799, 29721807]
+              - title: 【老吴于老板对峙】
+                until:
+                  id: 29725289
+                  text-until: 说着韩老板拉着你快速往山下走去，
+                  exclude: [29724600]
+                children:
+                  - title: 「PO之音」
+                    only: 29722531
+
+          - title: 午前｜➡️下山的大道
+            intro: |
+              * 人物：我、韩沐
+            children:
+              - title: 【强势询问老板】
+                until:
+                  id: 29730555
+                  text-until: 不知所措的挠了挠头。
+                  exclude: [29728723, 29728785, 29728815, 29728938, 29730514]
+
+          - title: 中午｜➡️「安顺山庄」·一楼·大厅
+            intro: |
+              * 人物：我、叶袅、万越、翁语涵、闫欣、王明、吴山、韩沐、李经理、服务员
+                * 中途入场：温婉、贺索「面目普通」、「大狗」、苏念「棕色卷发」
+            children:
+              - title: 【准备就餐；选择老板坐旁边】
+                until:
+                  id: 29731373
+                  text-until: 自觉的坐到了没人坐的那一边。
+                  exclude: [29730907, 29731074, 29731087, 29731350]
+                children:
+                  - title: 「PO之音」
+                    only: 29730890
+              - title: 【游客三人组带温婉加入饭局】
+                until:
+                  id: 29731779
+                  text-until: “不要因为我们的加入而不说话嘛~”
+                  exclude: 29731769
+                children:
+                  - title: 「PO之音」
+                    only: 29731774
+              - title: 【老吴引导王明开起怪谈话题；我讲了怪谈「大湾里死的人都去了哪里？」】
+                until:
+                  id: 29732505
+                  text-until: 口干舌燥的你打开了放在餐桌上未开封的矿泉水喝了一口。
+                  exclude: [29732042, 29732496, 29732500]
+              - title: 【老吴讲了怪谈「猫咪」】
+                until:
+                  id: 29732514
+                  text-until: 在自己胸前快速画了个十字架。
+              - title: 【苏念讲了怪谈「厕所里的我和我」】
+                until:
+                  id: 29732525
+                  text-until: 不会这么巧吧。
+              - title: 【开吃；询问老板怪谈；老板面色不好离开】
+                until:
+                  id: 29742663
+                  text-until: 你疑惑的看着他的背影。
+                  exclude: 29742604
+              - title: 【饭桌聊天】
+                until: 29742684
+              - title: 【偷看老板情况，老板呕吐，疑似向叶澄打电话；与老吴私聊单独见面】
+                until:
+                  id: 29747649
+                  exclude: [29744955, 29745361, 29746646, 29747508]
+                children:
+                  - title: 「PO之音」
+                    only: [29746679, 29746810]
+              - title: 【老吴展示「人蜕」；我暂时拒绝站边；老吴要求我最晚明早表明态度】
+                until:
+                  id: 29754326
+                  text-until: 在寒冷的雪中谁都想要抓上一把。
+                  exclude: [29750530, 29754270]
