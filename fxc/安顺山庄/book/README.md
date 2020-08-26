@@ -4,7 +4,7 @@
 * PO：fxc8mDE
 * 参与者：众饼干
 
-许可：[善娑大金天 P326](https://adnmb2.com/t/28470905?page=326) >>No.29315075
+许可：[「善娑大金天」串 P326](https://adnmb2.com/t/28470905?page=326) >>No.29315075
 
 由另一位肥肥整理的笔记，已开放编辑及评论权限：
 [跑团-安顺山庄 — www.notion.so](https://www.notion.so/6a6dd13260df412a89f9b7b471e19852)  
