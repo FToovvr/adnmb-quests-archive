@@ -3,6 +3,4 @@ remote_theme: FToovvr/jekyll-rtd-theme #
 markdown: GFM
 addons:
   - github:
-    - homepage
-  - style-quick-fixes-by-ftoovvr
-  
+    - homepage  
