@@ -1,0 +1,647 @@
+format-version: 1
+
+title: 安顺山庄
+po: fxc8mDE
+
+intro: |
+  * 本家：A岛跑团版 [No.29556631](https://adnmb3.com/t/29556631)  
+  * PO：fxc8mDE
+  * 参与者：众饼干
+
+  许可：[「善娑大金天」串 P326](https://adnmb3.com/t/28470905?page=326) >>No.29315075
+
+  由另一位肥肥整理的笔记，已开放编辑及评论权限：
+  [跑团-安顺山庄 — www.notion.so](https://www.notion.so/6a6dd13260df412a89f9b7b471e19852)  
+  初次提及：[原串 P37](https://adnmb3.com/t/29556631?page=37) >>29588417
+
+defaults:
+  expand-quote-links: true
+  post-style: details-blockquote # blockquote | details-blockquote
+toc:
+  style: details-blockquote # false (or 'null') | 'details-margin' (or 'details', 'true') | 'details-blockquote' | 'list'
+  collapse:
+    at-levels: 4
+
+divisions:
+  - title: 原文
+    division-type: file
+    children:
+      - title: 第一日（8月22日）
+        children:
+          - title: 5:50AM｜出发前的客车及附近
+            intro: |
+              * 人物：我、叶袅「小舅子」、万越「压低帽檐」、翁语涵「及肩」、闫欣「马尾」、温婉、王明、司机、吴山「老吴」、韩沐「老板」
+            children:
+              - title: 【车卡】
+                until:
+                  id: 29558032
+                  exclude:
+                    [29556653, 29556905, 29557297, 29557699, 29557718, 29557989]
+                  text-until: 完全是在浪费你的休息时间。
+              - title: 【准备出发】
+                until:
+                  id: 29562283
+                  exclude:
+                    [
+                      [29558782, 29560041, 29560646, 29560759, 29561001],
+                      [29561013, 29562093],
+                    ]
+              - title: 【购买补给】
+                until:
+                  id: 29568703
+                  exclude: [29563211, 29564041, 29564389, 29564915, 29566853]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 要以真人的体感对待团内人物
+                        only: 29565021
+                      - title: 山庄内设施物资齐全
+                        only: 29565379
+                      - title: 关于PC的行李箱内的物品
+                        only: 29565471
+                      - title: PC刚刚来到位于三线城市的老板公司，打算买房过上安稳生活
+                        only: 29568691
+              - title: 【回到车上】
+                until:
+                  id: 29570298
+                  text-until: 5分钟后发车了！”
+                  exclude: 29570243
+              - title: 【关于我和老板】
+                until:
+                  id: 29571378
+                  text-until: 你来这算是大材小用了。
+                  exclude: 29571316
+              - title: 【关于「大湾」】
+                until:
+                  id: 29573925
+                  text-until: 他靠边停下打开了客车门。
+                  exclude: [29572434, 29573863]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 团内人物都可以试着攻略
+                        only: 29571465
+              - title: 【老板到来】
+                until:
+                  id: 29578646
+                  exclude: [29575261, 29577014, 29578598]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 「职位」
+                        only: 29578606
+
+          - title: 早晨｜➡️客车路途
+            intro: |
+              * 人物：我、叶袅、万越、翁语涵、闫欣、温婉、王明、司机、吴山、韩沐
+            children:
+              - title: 【询问老板】
+                until:
+                  id: 29592996
+                  exclude: [29578722, 29589303, 29589313, 29590620, 29591873]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 老板和老板娘在公司不怎么做事
+                        only: 29590489
+              - title: 【游泳话题】
+                until:
+                  id: 29596751
+                  text-until: 你摇摇头岔开话题说：
+                  exclude: 29594950
+              - title: 【老吴的老婆与「大湾」】
+                until:
+                  id: 29596764
+                  text-until: 你们先聊。”
+              - title: 【邀请万越晚上一起睡】
+                until:
+                  id: 29600154
+                  text-until: “那我先回座位喽。”
+                  exclude: 29600112
+                post-rules:
+                  29600154:
+                    show-attachment: false
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 客车上的座位分布图
+                        only: 29596813
+              - title: 【小黑询问；网络检索】
+                until:
+                  id: 29600171
+              - title: 【老板试探记忆】
+                until:
+                  id: 29606859
+                  text-until: 众人附和着他开始忙碌起来。
+                  exclude:
+                    [
+                      [29600677, 29601139, 29601176, 29601209, 29601330],
+                      [29601383, 29601436, 29602204, 29605533, 29605612],
+                    ]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 关于PC入职老板公司的缘由
+                        only: 29602697
+
+          - title: 8:45AM｜➡️「安顺山庄」外
+            intro: |
+              * 人物：我、叶袅、韩沐、吴山
+                * 在场未提及：万越、翁语涵、闫欣、温婉、王明
+            children:
+              - title: 【到达「山庄」；模糊的记忆；老板安排下午玩水】
+                until:
+                  id: 29612165
+                  text-until: 树下的韩老板没有说话的站在阴影里。
+                  exclude:
+                    [
+                      [29607044, 29607069, 29608911, 29609192, 29610893],
+                      29610930,
+                    ]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: PC、老板27岁，叶袅22岁，万越23岁
+                        only: 29607338
+                      - title: 关于栏杆附近的木船
+                        only: 29609020
+              - title: 【关切叶袅；老吴的警告】
+                until: 29612165
+
+          - title: 上午｜➡️「停车场」➡️「安顺山庄」·一楼·大厅
+            intro: |
+              * 人物：我、叶袅、万越、翁语涵、闫欣、温婉、王明、吴山、韩沐、「面目普通」、「大狗」（「蓝色口罩」）、「棕色卷发」、「李经理」
+            children:
+              - title: 【乒乓球台】
+                until:
+                  id: 29638803
+                  text-until: 他似乎……智商有问题？
+                  exclude: [29621330, 29638722]
+              - title: 【分配房间】
+                until:
+                  id: 29652514
+                  text-until: ”王明不自在的勉强答应。
+                  exclude:
+                    [
+                      [29641551, 29643344, 29643351, 29643356, 29643721],
+                      29652504,
+                    ]
+
+          - title: 上午｜➡️「安顺山庄」·一楼·电梯外
+            intro: |
+              * 人物：我、叶袅、万越、翁语涵、闫欣、温婉、王明、吴山、韩沐、「李经理」
+                * 中途退场：翁语涵、闫欣、温婉、吴山、「李经理」
+            children:
+              - title: 【第一批电梯】
+                until:
+                  id: 29654899
+                  text-until: 电梯门关合。
+                  exclude: 29654783
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 本团人物关系相对复杂；人性复杂，有好有坏，会有人利用PC「好人」这一点
+                        only: 29655604
+              - title: 【关于5楼】
+                until:
+                  id: 29656086
+                  text-until: 话题终结者可能就是指万越这样的人。
+                  exclude: [29654943, 29656046]
+
+          - title: 上午｜➡️「安顺山庄」·一楼·大厅
+            intro: |
+              * 人物：我、叶袅、万越、王明、韩沐
+                * 中途退场：叶袅、万越
+            children:
+              - title: 【前往厕所，韩老板带路】
+                until:
+                  id: 29657878
+                  text-until: 你与王明在韩老板的带领下来到了右边走廊尽头的厕所中。
+                  exclude: [29657844, 29657851]
+
+          - title: 上午｜➡️「安顺山庄」·一楼·厕所
+            intro: |
+              * 人物：我、王明、韩沐
+            children:
+              - title: 【上厕所】
+                until:
+                  id: 29657878
+
+          - title: 上午｜➡️「安顺山庄」·电梯
+            intro: |
+              * 人物：我、叶袅、万越、王明、韩沐、「李经理」
+            children:
+              - title: 【照片】
+                until:
+                  id: 29660729
+                  exclude: 29660710
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 团建计划3天，看剧情发展暂定3到5天
+                        only: 29658235
+
+          - title: 上午｜➡️「安顺山庄」·三楼·「312」（我、万越房间）
+            intro: |
+              * 人物：我、万越
+            children:
+              - title: 【观察房间；选择睡在靠门的单人床上】
+                until:
+                  id: 29663583
+                  text-until: “……”
+                  exclude: 29663548
+                children:
+                  - title: 「目前可以公开的情报」
+                    children:
+                      - title: 你的笔记本01 （电梯内的素描）
+                        only: 29660848
+                        post-rules:
+                          29660848:
+                            appended: 29746810
+                      - title: 你的笔记本02 （我的房间的素描）
+                        only: 29660863
+              - title: 【与万越闲聊，关于万越的金毛「泡泡」】
+                until: 29663588
+
+          - title: ➡️10:00AM｜「安顺山庄」·三楼·「312」
+            intro: |
+              * 人物：我、万越
+            children:
+              - title: 【询问、检查水龙头里的水】
+                until:
+                  id: 29668186
+                  text-until: 只有一楼的水有问题？
+                  exclude: [29664030, 29667022]
+                post-rules:
+                  29668186:
+                    appended: 29691263
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 有办公用的QQ群
+                        only: 29663947
+              - title: 【找万越在网上搜查这里的相关信息】
+                until:
+                  id: 29672657
+                  text-until: “没事，真是「怪谈」我今晚可能就不敢睡了！你读吧。”
+                  exclude:
+                    [
+                      [29668522, 29668713, 29669388, 29669865, 29670650],
+                      29672655,
+                    ]
+              - title: 【怪谈「大湾里死的人都去了哪里？」】
+                until:
+                  id: 29672663
+                  text-until: 说：“云里雾里的，下一篇呢？”
+              - title: 【怪谈「玷污」】
+                until: 29672688
+              - title: 【关于「怪谈」的额外信息】
+                until:
+                  id: 29683136
+                  text-until: 说完你拉开了板门走了出去。
+                  exclude: [29672696, 29681301, 29683113]
+
+          - title: 午前｜➡️「安顺山庄」·三楼·走廊
+            intro: |
+              * 人物：我、王明
+            children:
+              - title: 【遇到王明；得知老板去接电话】
+                until:
+                  id: 29690537
+                  exclude: [29686776, 29687664, 29690503]
+                post-rules:
+                  29683136:
+                    appended: 29683212
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 只有一楼大厅有公共厕所
+                        only: 29687899
+
+          - title: 午前｜➡️「安顺山庄」·靠近电梯的楼梯间
+            intro: |
+              * 人物：我、王明
+            children:
+              - title: 【发现楼梯高度不一】
+                until: 29690551
+
+          - title: 午前｜➡️「安顺山庄」·「五」楼·「512」（老吴、叶袅房间）
+            intro: |
+              * 人物：我、王明、叶袅
+            children:
+              - title: 【得知老吴根本没上来】
+                until: 29690570
+              - title: 【观察房间；离开】
+                until:
+                  id: 29693046
+                  text-until: 已经组好队的叶袅与王明对你挥挥手示意你快去快回。
+                  exclude: [29691302, 29692549, 29692585]
+
+          - title: 午前｜➡️「安顺山庄」·远离电梯的楼梯间
+            intro: |
+              * 人物：我、韩沐
+            children:
+              - title: 【下楼，老板追随；女生回信老吴相关信息】
+                until:
+                  id: 29693046
+                  text-until: 他让我们到了2层先回屋里。」
+
+          - title: 10:45左右｜➡️湖边
+            intro: |
+              * 人物：我、韩沐、「大狗」
+                * 中途退场：「大狗」
+            children:
+              - title: 【见到大狗；老板气喘吁吁】
+                until:
+                  id: 29695373
+                  text-until: “……”
+                  exclude: 29695287
+              - title: 【与大狗交谈；无法联系温婉、老吴】
+                until:
+                  id: 29698675
+                  text-until: 没有人接听。
+                  exclude: [29698398, 29698549]
+                children:
+                  - title: 「目前可以公开的情报」
+                    children:
+                      - title: 你的笔记本03 「安顺山庄」3层地图
+                        only: 29695491
+              - title: 【与老板交谈；答应听老板的话】
+                until:
+                  id: 29714360
+                  text-until: “我们上山吧，现在。”
+                  exclude:
+                    [
+                      [29699747, 29700521, 29700726, 29713127, 29713165],
+                      [29713710, 29714324],
+                    ]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 山里有卖饮料，够喝
+                        only: 29699853
+                      - title: 第一天白天不会出啥大事
+                        only: 29699875
+              - title: 【准备上山；QQ告知万越、叶袅晚回】
+                until:
+                  id: 29716573
+                  exclude: 29716503
+                post-rules:
+                  29716546:
+                    appended: 29717513
+
+          - title: 午前｜➡️上山的捷径
+            intro: |
+              * 人物：我、韩沐
+            children:
+              - title: 【上山】
+                until:
+                  id: 29716592
+                  text-until: 他怎么这么虚？
+
+          - title: 午前｜➡️后山·寒潭
+            intro: |
+              * 人物：我、韩沐
+                * 中途入场：吴山
+            children:
+              - title: 【老板要求玩水】
+                until:
+                  id: 29721950
+                  text-until: 你俩拔河一样的在潭边拉扯着，
+                  exclude: [29717080, 29717541, 29717616, 29720799, 29721807]
+              - title: 【老吴于老板对峙】
+                until:
+                  id: 29725289
+                  text-until: 说着韩老板拉着你快速往山下走去，
+                  exclude: [29724600]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 看不见老吴的装备
+                        only: 29724001
+
+          - title: 午前｜➡️下山的大道
+            intro: |
+              * 人物：我、韩沐
+            children:
+              - title: 【强势询问老板】
+                until:
+                  id: 29730555
+                  text-until: 不知所措的挠了挠头。
+                  exclude: [29728723, 29728785, 29728815, 29730514]
+
+          - title: 中午｜➡️「安顺山庄」·一楼·大厅
+            intro: |
+              * 人物：我、叶袅、万越、翁语涵、闫欣、王明、吴山、韩沐
+                * 短暂在场：「李经理」（上菜）、服务员（上菜）
+                * 中途入场：温婉、贺索「面目普通」、「大狗」、苏念「棕色卷发」
+            children:
+              - title: 【准备就餐；选择老板坐旁边】
+                until:
+                  id: 29731373
+                  text-until: 自觉的坐到了没人坐的那一边。
+                  exclude: [29730907, 29731074, 29731087, 29731350]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 刚到时餐桌的座位分布图
+                        only: 29730890
+              - title: 【游客三人组带温婉加入饭局】
+                until:
+                  id: 29731779
+                  text-until: “不要因为我们的加入而不说话嘛~”
+                  exclude: 29731769
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 游客三人组加入后餐桌的座位分布图
+                        only: 29731774
+              - title: 【老吴引导王明开起怪谈话题；我讲了怪谈「大湾里死的人都去了哪里？」】
+                until:
+                  id: 29732505
+                  text-until: 口干舌燥的你打开了放在餐桌上未开封的矿泉水喝了一口。
+                  exclude: [29732042, 29732496, 29732500]
+              - title: 【老吴讲了怪谈「猫咪」】
+                until:
+                  id: 29732514
+                  text-until: 在自己胸前快速画了个十字架。
+              - title: 【苏念讲了怪谈「厕所里的我和我」】
+                until:
+                  id: 29732525
+                  text-until: 不会这么巧吧。
+              - title: 【开吃；询问老板怪谈；老板面色不好离开】
+                until:
+                  id: 29742663
+                  text-until: 你疑惑的看着他的背影。
+                  exclude: 29742604
+              - title: 【饭桌聊天】
+                until: 29742684
+
+          - title: 中午｜➡️「安顺山庄」·一楼·走廊
+            intro: |
+              * 人物：我、韩沐
+            children:
+              - title: 【偷看老板情况，老板呕吐，疑似向叶澄打电话，上楼；与老吴私聊单独见面】
+                until:
+                  id: 29747649
+                  exclude: [29744955, 29745361, 29746646, 29747508]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 楼梯间里有监控，有合理理由可以找经理看
+                        only: 29746679
+
+          - title: 中午｜➡️「安顺山庄」·大厅角楼
+            intro: |
+              * 人物：我、吴山
+                * 在场未提及：其余员工？
+            children:
+              - title: 【老吴展示「人蜕」；我暂时拒绝站边；老吴要求我最晚明早表明态度；老吴上楼】
+                until:
+                  id: 29754326
+                  text-until: 在寒冷的雪中谁都想要抓上一把。
+                  exclude: [29750530, 29754270]
+
+          - title: 午后｜➡️「安顺山庄」·一楼·走廊
+            intro: |
+              * 人物：我、叶袅
+            children:
+              - title: 【带叶袅回宿舍打游戏；电梯在负一楼】
+                until:
+                  id: 29758264
+                  exclude: 29758245
+
+          - title: 午后｜➡️「安顺山庄」·楼梯间
+            intro: |
+              * 人物：我、叶袅
+            children:
+              - title: 【向叶袅打探有关叶澄和老吴的信息】
+                until:
+                  id: 29758294
+                  text-until: 他老婆特别知书达理善解人意。”
+
+          - title: 1:15PM｜➡️「安顺山庄」·三楼·「312」
+            intro: |
+              * 人物：我、叶袅
+            children:
+              - title: 【老板通知三点后山游玩；安顿叶袅玩游戏；前去看望老板】
+                until:
+                  id: 29761050
+                  text-until: 这种莫名熟悉的感觉意外的让你有点暖心。
+                  exclude: 29761004
+
+          - title: 午后｜➡️「安顺山庄」·三楼·「313」（老板、王明房间）
+            intro: |
+              * 人物：我、韩沐
+                * 中途入场：王明
+            children:
+              - title: 【老板睡午觉】
+                until:
+                  id: 29761050
+                post-rules:
+                  29761050:
+                    appended: 29761144
+              - title: 【为老板按摩，以观察身体】
+                until:
+                  id: 29775512
+                  text-until: 你动作轻巧的帮韩老板盖了层被子。
+                  exclude:
+                    [
+                      [29761077, 29761094, 29761123, 29761178, 29772246],
+                      [29773558, 29775116, 29775140],
+                    ]
+                children:
+                  - title: 「PO之音」
+                    children:
+                      - title: 寒潭在后山
+                        only: 29761107
+              - title: 【观察厕所；用毛巾将镜子遮住】
+                until:
+                  id: 29775542
+                  text-until: 自己还不清楚吗？
+              - title: 【王明到来；得知其余人去看了树上猫咪的尸体；用老板吼住王明不拽毛巾】
+                until:
+                  id: 29777119
+                  text-until: “我尿尿，你出去啊。”
+                  exclude: 29776960
+                post-rules:
+                  29777119:
+                    show-attachment: false
+                children:
+                  - title: 「目前可以公开的情报」
+                    children:
+                      - title: 你的笔记本04 「安顺山庄」3层地图更新
+                        only: 29775626
+              - title: 【与万越QQ交流；与王明一起前去找温婉；QQ向闫欣询问温婉住处】
+                until:
+                  id: 29780148
+                  text-until: 将一个空水杯放在床头柜上。
+                  exclude: 29780095
+
+          - title: 午后｜➡️「安顺山庄」·楼梯间
+            intro: |
+              * 人物：我、王明
+            children:
+              - title: 【与王明谈论公司员工资历】
+                until: 29780148
+
+          - title: 2:45PM左右｜➡️「安顺山庄」·二楼·「205」（原老板房间，现温婉房间）
+            intro: |
+              * 人物：我、王明、温婉、苏念
+                * 中途退场：苏念
+            children:
+              - title: 【苏念在帮温婉涂口红；温婉支开苏念，苏念前往「206」】
+                until: 29780174
+              - title: 【询问温婉不回消息的事、老吴的事】
+                until: 29784350
+              - title: 【观察房间；叫上温婉上楼收拾东西玩水】
+                until:
+                  id: 29787210
+                  text-until: 感觉哪里有点怪怪的。
+                  exclude: 29787182
+                children:
+                  - title: 「目前可以公开的情报」
+                    children:
+                      - title: 你的笔记本05 「安顺山庄」2层地图更新
+                        only: 29784440
+
+          - title: 下午｜➡️「安顺山庄」·三楼·「312」
+            intro: |
+              * 人物：我、王明、温婉、万越（回房）、叶袅
+            children:
+              - title: 【上楼准备】
+                until:
+                  id: 29787210
+
+          - title: 3:00PM｜➡️「安顺山庄」·一楼·大厅
+            intro: |
+              * 人物：我，韩沐，吴山之外的其余员工
+            children:
+              - title: 【集合，老吴之外到齐；出发】
+                until: 29787227
+
+          - title: 3:36PM｜➡️后山·寒潭
+            intro: |
+              * 人物：我，韩沐，吴山之外的其余员工
+            children:
+              - title: 【自由活动：翁语涵、闫欣、王明玩水，温婉围观，韩老板水拍脸，叶袅玩NS；万越盯着山洞若有所思】
+                until: 29787254
+              - title: 【万越要去山洞看看，我提议跟随；老板阻止我去，没留住；我请求温婉观察谁胯骨下有痣】
+                until:
+                  id: 29792448
+                  exclude: [29787764, 29789055, 29792416, 29792437]
+                children:
+                  - title: 「目前可以公开的情报」
+                    children:
+                      - title: 你的笔记本05 「寒潭01」
+                        only: 29789181
+                      - title: 你的笔记本06 「寒潭02」
+                        only: 29789200
+
+          - title: 3:36PM｜➡️后山·寒潭·山洞外围
+            intro: |
+              * 人物：我、万越、韩沐
+            children:
+              - title: 【老板跟来；听到水珠滴漏声后，老板声音颤抖着说：“不能再向前了！”】
+                until:
+                  id: 29792458
