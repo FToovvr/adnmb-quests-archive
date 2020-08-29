@@ -1,0 +1,24 @@
+format-version: 1
+
+title: 月下村
+po: fxc8mDE
+
+intro: |
+  * 本家：A岛跑团版 [No.28012634](https://adnmb3.com/t/28012634)  
+  * PO：fxc8mDE
+  * 参与者：众饼干
+
+  许可：[「善娑大金天」串 P326](https://adnmb3.com/t/28470905?page=326) >>No.29315075
+
+defaults:
+  expand-quote-links: true
+  post-style: details-blockquote # blockquote | details-blockquote
+toc:
+  style: details-blockquote # false (or 'null') | 'details-margin' (or 'details', 'true') | 'details-blockquote' | 'list'
+  collapse:
+    at-levels: 4
+
+divisions:
+  - title: 原文
+    division-type: file
+    children:
