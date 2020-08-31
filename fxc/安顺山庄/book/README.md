@@ -1,4 +1,6 @@
-<h1 id="%E5%AE%89%E9%A1%BA%E5%B1%B1%E5%BA%84">安顺山庄</h1>
+[]()<nav>当前位于：<span style="font-weight: bold">安顺山庄</span></nav>
+
+<h1 id="top-heading">安顺山庄</h1>
 
 * 本家：A岛跑团版 [No.29556631](https://adnmb3.com/t/29556631)  
 * PO：fxc8mDE
@@ -13,4 +15,3 @@
 <h2 id="%E5%8E%9F%E6%96%87">原文</h2>
 
 ⎆ [原文](原文.md)
-
