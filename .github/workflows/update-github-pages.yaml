@@ -29,12 +29,6 @@ jobs:
             exit 2
           fi
 
-      - name: 检出 gh-pages 分支
-        uses: actions/checkout@v2
-        with:
-          ref: gh-pages
-          path: gh-pages
-
       - name: 检出工具仓库
         uses: actions/checkout@v2
         with:
@@ -54,14 +48,24 @@ jobs:
         run: |
           # echo "::add-path::$GITHUB_WORKSPACE/tools/thread-renderer"
           TMPDIR="/tmp/ftoovvr-tmp"
+          echo "::set-env name=TMPDIR::$TMPDIR"
           mkdir -p "$TMPDIR"
           "$GITHUB_WORKSPACE/tools/thread-renderer/adnmb-render-thread-dump.py" -c "$GITHUB_WORKSPACE/quest-data/divisions.yaml" -o "$TMPDIR/render-output/book" --log-config="$GITHUB_WORKSPACE/tools/logging.conf"
+
+      - name: 检出 gh-pages 分支
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: 将渲染输出覆盖到 gh-pages 分支相应位置
+        run: |
           TARGET_QUEST_PATH=${GITHUB_REF#refs/heads/quests/}
           TARGET_FOLDER="$GITHUB_WORKSPACE/gh-pages/$TARGET_QUEST_PATH"
           rm -rf "$TARGET_FOLDER"
           mkdir -p "$TARGET_FOLDER"
-          mv "$TMPDIR/render-output/book" "$TARGET_FOLDER/"
-          rm -rf "$TMPDIR"
+          mv "${{ env.TMPDIR }}/render-output/book" "$TARGET_FOLDER/"
+          rm -rf "${{ env.TMPDIR }}"
 
       - name: 提交 gh-pages 分支
         run: |
