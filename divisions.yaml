@@ -20,7 +20,7 @@ defaults:
 toc:
   style: details-blockquote # false (or 'null') | 'details-margin' (or 'details', 'true') | 'details-blockquote' | 'list'
   collapse:
-    at-levels: 4
+    at-levels: [2, 4]
 
 divisions:
   - title: 原文
@@ -105,7 +105,7 @@ divisions:
             intro: |
               * 人物：我、叶袅、万越、翁语涵、闫欣、温婉、王明、司机、吴山、韩沐
             children:
-              - title: 【询问老板】
+              - title: 【我询问老板】
                 until:
                   id: 29592996
                   excluded: [29578722, 29589303, 29589313, 29590620, 29591873]
@@ -123,7 +123,7 @@ divisions:
                 until:
                   id: 29596764
                   text-until: 你们先聊。”
-              - title: 【邀请万越晚上一起睡】
+              - title: 【我邀请万越晚上一起睡】
                 until:
                   id: 29600154
                   text-until: “那我先回座位喽。”
@@ -136,7 +136,7 @@ divisions:
                     children:
                       - title: 客车上的座位分布图
                         only: 29596813
-              - title: 【小黑询问；网络检索】
+              - title: 【我在小黑询问，网络检索】
                 until:
                   id: 29600171
                 children:
@@ -144,7 +144,7 @@ divisions:
                     children:
                       - title: 关于PC入职老板公司的缘由
                         only: 29602697
-              - title: 【老板试探记忆】
+              - title: 【老板试探我的记忆】
                 until:
                   id: 29606859
                   text-until: 众人附和着他开始忙碌起来。
@@ -175,7 +175,7 @@ divisions:
                         only: 29607338
                       - title: 关于栏杆附近的木船
                         only: 29609020
-              - title: 【关切叶袅；老吴的警告】
+              - title: 【我关切叶袅；老吴对我的警告】
                 until: 29612165
 
           - title: 上午｜➡️「停车场」➡️「安顺山庄」·一楼·大厅
@@ -223,7 +223,7 @@ divisions:
               * 人物：我、叶袅、万越、王明、韩沐
                 * 中途退场：叶袅、万越
             children:
-              - title: 【前往厕所，韩老板带路】
+              - title: 【我和王明前往厕所，韩老板带路】
                 until:
                   id: 29657878
                   text-until: 你与王明在韩老板的带领下来到了右边走廊尽头的厕所中。
@@ -255,7 +255,7 @@ divisions:
             intro: |
               * 人物：我、万越
             children:
-              - title: 【观察房间；选择睡在靠门的单人床上】
+              - title: 【我观察房间；我选择睡在靠门的单人床上】
                 until:
                   id: 29663583
                   text-until: “……”
@@ -270,14 +270,14 @@ divisions:
                             appended: 29746810
                       - title: 你的笔记本02 （我的房间的素描）
                         only: 29660863
-              - title: 【与万越闲聊，关于万越的金毛「泡泡」】
+              - title: 【我与万越闲聊，关于万越的金毛「泡泡」】
                 until: 29663588
 
           - title: ➡️10:00AM｜「安顺山庄」·三楼·「312」
             intro: |
               * 人物：我、万越
             children:
-              - title: 【询问、检查水龙头里的水】
+              - title: 【我QQ询问、检查水龙头里的水】
                 until:
                   id: 29668186
                   text-until: 只有一楼的水有问题？
@@ -290,7 +290,7 @@ divisions:
                     children:
                       - title: 有办公用的QQ群
                         only: 29663947
-              - title: 【找万越在网上搜查这里的相关信息】
+              - title: 【我找万越在网上搜查这里的相关信息】
                 until:
                   id: 29672657
                   text-until: “没事，真是「怪谈」我今晚可能就不敢睡了！你读吧。”
@@ -315,7 +315,7 @@ divisions:
             intro: |
               * 人物：我、王明
             children:
-              - title: 【遇到王明；得知老板去接电话】
+              - title: 【我遇到王明；我得知老板去接电话】
                 until:
                   id: 29690537
                   excluded: [29686776, 29687664, 29690503]
@@ -332,7 +332,7 @@ divisions:
             intro: |
               * 人物：我、王明
             children:
-              - title: 【发现楼梯高度不一】
+              - title: 【我发现楼梯高度不一】
                 until: 29690551
 
           - title: 午前｜➡️「安顺山庄」·「五」楼·「512」（老吴、叶袅房间）
@@ -341,7 +341,7 @@ divisions:
             children:
               - title: 【得知老吴根本没上来】
                 until: 29690570
-              - title: 【观察房间；离开】
+              - title: 【我观察房间；离开】
                 until:
                   id: 29693046
                   text-until: 已经组好队的叶袅与王明对你挥挥手示意你快去快回。
@@ -351,7 +351,7 @@ divisions:
             intro: |
               * 人物：我、韩沐
             children:
-              - title: 【下楼，老板追随；女生回信老吴相关信息】
+              - title: 【我下楼，老板追随；女生回信老吴相关信息】
                 until:
                   id: 29693046
                   text-until: 他让我们到了2层先回屋里。」
@@ -366,7 +366,7 @@ divisions:
                   id: 29695373
                   text-until: “……”
                   excluded: 29695287
-              - title: 【大狗在玩蚯蚓；与大狗交谈；无法联系温婉、老吴】
+              - title: 【大狗在玩蚯蚓，我和老板与大狗交谈；我无法联系温婉、老吴】
                 until:
                   id: 29698675
                   text-until: 没有人接听。
@@ -376,7 +376,7 @@ divisions:
                     children:
                       - title: 你的笔记本03「安顺山庄」3层地图
                         only: 29695491
-              - title: 【与老板交谈；答应听老板的话】
+              - title: 【我与老板交谈，答应听老板的话】
                 until:
                   id: 29714360
                   text-until: “我们上山吧，现在。”
@@ -437,7 +437,7 @@ divisions:
             intro: |
               * 人物：我、韩沐
             children:
-              - title: 【强势询问老板】
+              - title: 【我强势询问老板】
                 until:
                   id: 29730555
                   text-until: 不知所措的挠了挠头。
@@ -449,7 +449,7 @@ divisions:
                 * 短暂在场：「李经理」（上菜）、服务员（上菜）
                 * 中途入场：温婉、贺索「面目普通」、「大狗」、苏念「棕色卷发」
             children:
-              - title: 【准备就餐；选择老板坐旁边】
+              - title: 【准备就餐；我选择让老板坐旁边】
                 until:
                   id: 29731373
                   text-until: 自觉的坐到了没人坐的那一边。
@@ -484,7 +484,7 @@ divisions:
                 until:
                   id: 29732525
                   text-until: 不会这么巧吧。
-              - title: 【开吃；询问老板怪谈；老板面色不好离开】
+              - title: 【开吃；我问老板对怪谈的看法，老板面色不好离开】
                 until:
                   id: 29742663
                   text-until: 你疑惑的看着他的背影。
@@ -499,7 +499,7 @@ divisions:
             intro: |
               * 人物：我、韩沐
             children:
-              - title: 【偷看老板情况，老板呕吐，疑似向叶澄打电话，上楼；与老吴私聊单独见面】
+              - title: 【我偷看老板情况，老板呕吐，疑似向叶澄打电话，上楼；我QQ与老吴私聊单独见面】
                 until:
                   id: 29747649
                   excluded: [29744955, 29745361, 29746646, 29747508]
@@ -524,7 +524,7 @@ divisions:
             intro: |
               * 人物：我、叶袅
             children:
-              - title: 【带叶袅回宿舍打游戏；电梯在负一楼】
+              - title: 【我带叶袅回宿舍打游戏；电梯在负一楼】
                 until:
                   id: 29758264
                   excluded: 29758245
@@ -533,7 +533,7 @@ divisions:
             intro: |
               * 人物：我、叶袅
             children:
-              - title: 【向叶袅打探有关叶澄和老吴的信息】
+              - title: 【我向叶袅打探有关叶澄和老吴的信息】
                 until:
                   id: 29758294
                   text-until: 他老婆特别知书达理善解人意。”
@@ -564,7 +564,7 @@ divisions:
                     children:
                       - title: 寒潭在后山
                         only: 29761107
-              - title: 【为老板按摩，以观察身体】
+              - title: 【我为老板按摩，以观察身体】
                 until:
                   id: 29775512
                   text-until: 你动作轻巧的帮韩老板盖了层被子。
@@ -577,7 +577,7 @@ divisions:
                 until:
                   id: 29775542
                   text-until: 自己还不清楚吗？
-              - title: 【王明到来；得知其余人去看了树上猫咪的尸体；用老板吼住王明不拽毛巾】
+              - title: 【王明到来；我得知其余人去看了树上猫咪的尸体；我用老板吼住王明不拽毛巾】
                 until:
                   id: 29777119
                   text-until: “我尿尿，你出去啊。”
@@ -590,7 +590,7 @@ divisions:
                     children:
                       - title: 你的笔记本04「安顺山庄」3层地图更新
                         only: 29775626
-              - title: 【与万越QQ交流；与王明一起前去找温婉；QQ向闫欣询问温婉住处】
+              - title: 【我与万越QQ交流；我与王明一起前去找温婉；我QQ向闫欣询问温婉住处】
                 until:
                   id: 29780148
                   text-until: 将一个空水杯放在床头柜上。
@@ -600,7 +600,7 @@ divisions:
             intro: |
               * 人物：我、王明
             children:
-              - title: 【与王明谈论公司员工资历】
+              - title: 【我与王明谈论公司员工资历】
                 until: 29780148
 
           - title: 2:45PM左右｜➡️「安顺山庄」·二楼·「205」（原老板房间，现温婉房间）
@@ -610,9 +610,9 @@ divisions:
             children:
               - title: 【苏念在帮温婉涂口红；温婉支开苏念，苏念前往「206」】
                 until: 29780174
-              - title: 【询问温婉不回消息的事、老吴的事】
+              - title: 【我询问温婉不回消息的事、老吴的事】
                 until: 29784350
-              - title: 【观察房间；叫上温婉上楼收拾东西玩水】
+              - title: 【我观察房间；我叫上温婉上楼收拾东西玩水】
                 until:
                   id: 29787210
                   text-until: 感觉哪里有点怪怪的。
@@ -627,7 +627,7 @@ divisions:
             intro: |
               * 人物：我、王明、温婉、万越（回房）、叶袅
             children:
-              - title: 【上楼准备】
+              - title: 【上楼准备出发去团建】
                 until:
                   id: 29787210
 
@@ -690,7 +690,7 @@ divisions:
             children:
               - title: 【温婉汇报关于胯骨的观察】
                 until: 29810317
-              - title: 【与老板交谈我在山洞里的感觉、当时在山洞里发生的事、叶澄与山洞的关系】
+              - title: 【我与老板交谈我在山洞里的感觉、当时在山洞里发生的事、叶澄与山洞的关系】
                 until:
                   id: 29818740
                   text-until: “韩老板好好休息，小的先行告退。”
@@ -699,11 +699,11 @@ divisions:
                       [29810370, 29811350, 29811549, 29811933, 29812184],
                       [29813750, 29815351, 29816249, 29816328, 29817325],
                     ]
-              - title: 【与翁语涵、闫欣交谈，获取关于张姐的信息；让两人今晚接纳温婉一起住】
+              - title: 【我与翁语涵、闫欣交谈，获取关于张姐的信息；我让两人今晚接纳温婉一起住】
                 until:
                   id: 29818789
                   text-until: 你也不好意思再打扰她们的二人世界。
-              - title: 【打电话联系老妈，老妈反感东崖、「大湾」，不待见老板】
+              - title: 【我打电话联系老妈，老妈反感东崖、「大湾」，不待见老板】
                 until:
                   id: 29821800
                   excluded: 29821790
@@ -725,7 +725,7 @@ divisions:
                   id: 29833038
                   text-until: 万越又将厕所门锁打开了。
                   excluded: [29821878, 29833014]
-              - title: 【与叶澄视频通话】
+              - title: 【我和叶袅与叶澄视频通话】
                 until:
                   id: 29833047
                   text-until: 叶澄说着伸手挂断了视频。
@@ -734,7 +734,7 @@ divisions:
             intro: |
               * 人物：我、韩沐
             children:
-              - title: 【与老板谈老妈对老板的态度；大狗跑过并抛出脑筋急转弯「是什么杀死了猫？」，贺索快步追赶】
+              - title: 【我与老板谈老妈对老板的态度；大狗跑过并抛出脑筋急转弯「是什么杀死了猫？」，贺索快步追赶】
                 until:
                   id: 29834980
                   text-until: 你们2人被他们搞的莫名其妙的互相看了一眼。
@@ -760,10 +760,10 @@ divisions:
                 post-rules:
                   29839898:
                     appended: 29840210
-              - title: 【QQ私聊询问万越关于刚才镜子的事】
+              - title: 【我QQ私聊询问万越关于刚才镜子的事】
                 until:
                   id: 29839920
-              - title: 【QQ私聊告诉万越各房间镜子的处理方案，万越答应一同处理】
+              - title: 【我QQ私聊告诉万越各房间镜子的处理方案，万越答应一同处理】
                 until:
                   id: 29846017
                   excluded: [29842605, 29843065, 29846002]
@@ -774,7 +774,7 @@ divisions:
                         only: 29840165
                       - title: 关于房卡的分配
                         only: 29842866
-              - title: 【QQ联系闫欣、温婉处理镜子的事】
+              - title: 【我QQ联系闫欣、温婉处理镜子的事】
                 until: 29846069
                 post-rules:
                   29846032:
@@ -814,7 +814,7 @@ divisions:
                       - title: 风铃为铜质，个数：「312」5完整1脱落，「215」6完整，其余没有注意。
                         only: 29851985
                       - title: 午饭没有鱼
-                        only: 29851671
+                        only: 29852007
 
           - title: 傍晚｜➡️「安顺山庄」·三楼·「312」
             intro: |
@@ -845,7 +845,7 @@ divisions:
                 children:
                   - title: 「PO之音」
                     children:
-                      - title: 【PC没有在做梦】
+                      - title: PC没有在做梦
                         only: 29865373
                         post-rules:
                           29865373:
@@ -858,7 +858,7 @@ divisions:
                   post-rules:
                     29869173:
                       appended: 29870343
-              - title: 【隔着厕所玻璃门与「它」对视】
+              - title: 【我隔着厕所玻璃门与「它」对视】
                 until: 29869173
               - title: 【收回目光；黑色泥水侵染屋内】
                 until:
@@ -878,7 +878,7 @@ divisions:
               * 人物：我、叶袅、万越
                 * 中途入场：翁语涵
             children:
-              - title: 【醒来；房间有水渍，变得更加破旧】
+              - title: 【我醒来；房间有水渍，变得更加破旧】
                 until: 29879916
               - title: 【网络、信号中断；交流昨晚的事，睡正对厕所的床的万越脚踝有握痕】
                 until:
@@ -907,7 +907,7 @@ divisions:
                   text-until: 就像被死臭的湖水浸泡过一般。
                   excluded: [29900907, 29902311, 29902325]
 
-          - title: ➡️上午｜「安顺山庄」·三楼·「313」
+          - title: 上午｜➡️「安顺山庄」·三楼·「313」
             intro: |
               * 人物：我、叶袅、万越、翁语涵、韩沐、王明
                 * 中途入场：吴山、温婉
@@ -941,7 +941,7 @@ divisions:
                   id: 29928143
                   excluded: [29926015, 29928099, 29928110]
 
-          - title: ➡️上午｜「安顺山庄」·三楼·走廊
+          - title: 上午｜➡️「安顺山庄」·三楼·走廊
             intro: |
               * 人物：我、叶袅、万越、翁语涵、韩沐、王明、吴山、温婉
                 * 短暂出场：？（身影）
@@ -953,7 +953,7 @@ divisions:
               - title: 【搜查电梯，电梯里卡着几根像铁丝一样的黑色长条，老板表现僵硬】
                 until: 29931505
 
-          - title: ➡️上午｜「安顺山庄」·一楼·大厅
+          - title: 上午｜➡️「安顺山庄」·一楼·大厅
             intro: |
               * 人物：我、叶袅、万越、翁语涵、韩沐、王明、吴山、温婉、「李经理」、两名服务员、「大狗」
             children:
@@ -973,11 +973,11 @@ divisions:
                   id: 29939649
                   excluded: 29939639
 
-          - title: 10:25AM后｜湖边·银杏树林
+          - title: 10:25AM后｜➡️湖边·银杏树林
             intro: |
               * 人物：我、叶袅、万越、翁语涵、韩沐、王明、吴山、温婉
             children:
-              - title: 【悬挂在树枝上的闫欣】
+              - title: 【悬挂在老银杏树树枝上的闫欣】
                 until:
                   id: 29939666
                   text-until: 你哑口无言的感觉指缝间粘腻的汗水糟透了。
@@ -985,7 +985,59 @@ divisions:
                 until:
                   id: 29943109
                   excluded: 29943089
-              - title: 【我嘴炮老吴扭转局势，试图聚拢人心，老吴将黑水丢进湖中】
+              - title: 【我嘴炮老吴扭转局势，试图聚拢人心，老吴认输，将黑水丢进湖中】
                 until:
                   id: 29955933
                   excluded: [29943118, 29952363, 29952376, 29953510, 29955825]
+              - title: 【我叫上万越准备一起爬树；万越耍水果刀】
+                until:
+                  id: 29966895
+                  excluded: [29957780, 29960812, 29966873]
+              - title: 【我为翁语涵做思想工作】
+                until: 29966905
+              - title: 【我和万越上树；我短暂与黑猫干尸对视；发现闫欣喉咙钉在树上】
+                until: 29966936
+                post-rules:
+                  29966936:
+                    appended: 29969191
+              - title: 【取闫欣尸体；闫欣（？）诈尸，「铁丝」涌向万越被万越避开；闫欣（？）「爬」进黑水湖】
+                until:
+                  id: 29971559
+                  excluded: [29969104, 29970034, 29970618, 29971557]
+              - title: 【准备返程；录黑猫干尸视频；老板劝诱叶袅去寒潭】
+                until:
+                  id: 29982266
+                  text-until: 她的身高体重与你之前见到她目测的感觉差不多。
+                  excluded: 29982242
+
+          - title: 午前｜➡️「安顺山庄」外
+            intro: |
+              * 人物：我、叶袅、万越、翁语涵、韩沐、王明、吴山、温婉、贺索、「大狗」、苏念
+            children:
+              - title: 【遇到准备开车离开的贺索三人；向大狗套话】
+                until:
+                  id: 29987087
+                  text-until: 大狗抓着头好像听懂了韩老板瞎说的话。
+                  excluded: [29982886, 29982933, 29987042]
+                children:
+                  - title: 「目前可以公开的情报」
+                    children:
+                      - title: 你的笔记本10「地图」
+                        only: 29982847
+                        post-rules:
+                          29982847:
+                            appended: [29983105, 29987013]
+              - title: 【贺索发现山庄不对劲，邀我和一名同事搭车验证情况】
+                until:
+                  id: 29989052
+                  excluded: 29989030
+                children:
+                  - title: 「目前可以公开的情报」
+                    children:
+                      - title: 你的笔记本11「大厅」
+                        only: 29987115
+              - title: 【我安置好老板，拜托万越辅助控场，带着老吴上车】
+                until:
+                  id: 29991375
+                  text-until: 在探知线索的目的上你们的方向是一致的。
+                  excluded: 29991332
