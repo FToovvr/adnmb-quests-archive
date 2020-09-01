@@ -26,6 +26,16 @@ divisions:
   - title: 原文
     division-type: file
     children:
+      - title: 公开情报合集
+        division-type: file
+        children:
+          - title: 「目前可以公开的情报」合集
+            collecting:
+              parent-title-matches: 「目前可以公开的情报」
+          - title: 「PO之音」合集
+            collecting:
+              parent-title-matches: 「PO之音」
+
       - title: 第一日（8月22日）
         children:
           - title: 5:50AM｜出发前的客车及附近
@@ -465,6 +475,8 @@ divisions:
                   text-until: 口干舌燥的你打开了放在餐桌上未开封的矿泉水喝了一口。
                   excluded: [29732042, 29732496, 29732500]
               - title: 【老吴讲了怪谈「猫咪」】
+                until: 29732511
+              - title: 【翁语涵表示和闫欣散步看到猫咪的尸体挂在树上】
                 until:
                   id: 29732514
                   text-until: 在自己胸前快速画了个十字架。
