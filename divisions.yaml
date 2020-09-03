@@ -30,10 +30,10 @@ divisions:
         division-type: file
         children:
           - title: 「目前可以公开的情报」合集
-            collecting:
+            collect:
               parent-title-matches: 「目前可以公开的情报」
           - title: 「PO之音」合集
-            collecting:
+            collect:
               parent-title-matches: 「PO之音」
 
       - title: 第一日（8月22日）
@@ -1137,3 +1137,13 @@ divisions:
                   text-until: 劫后余生的你浑身虚脱般的无力颤抖。
                   excluded:
                     [30025100, 30027742, 30027765, 30028198, 30028228, 30028239]
+
+      - title: 尚未整理
+        until: 99999999
+
+  - title: 笔记
+    division-type: file
+    children:
+      - title: 关于第一夜
+        include:
+          file: notes/关于第一夜.md
