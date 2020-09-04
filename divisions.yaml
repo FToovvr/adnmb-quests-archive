@@ -1141,9 +1141,9 @@ divisions:
       - title: 尚未整理
         until: 99999999
 
-  - title: 笔记
+  - title: FToovvr的个人笔记
     division-type: file
     children:
-      - title: 关于第一夜
+      - title: 有关各角色第一夜的状况
         include:
-          file: notes/关于第一夜.md
+          file: notes/有关各角色第一夜的状况.md
