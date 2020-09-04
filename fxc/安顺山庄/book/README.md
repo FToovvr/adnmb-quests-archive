@@ -16,6 +16,6 @@
 
 ⎆ [原文](原文.md)
 
-<h2 id="%E7%AC%94%E8%AE%B0">笔记</h2>
+<h2 id="FToovvr%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0">FToovvr的个人笔记</h2>
 
-⎆ [笔记](笔记.md)
+⎆ [FToovvr的个人笔记](FToovvr的个人笔记.md)

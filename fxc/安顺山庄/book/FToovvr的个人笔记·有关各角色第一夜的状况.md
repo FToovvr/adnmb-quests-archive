@@ -1,6 +1,6 @@
-[]()<nav>当前位于：[安顺山庄](README.md) <span style="font-style: bold">・</span> [笔记](笔记.md) <span style="font-style: bold">・</span> <span style="font-weight: bold">关于第一夜</span></nav>
+[]()<nav>当前位于：[安顺山庄](README.md) <span style="font-style: bold">・</span> [FToovvr的个人笔记](FToovvr的个人笔记.md) <span style="font-style: bold">・</span> <span style="font-weight: bold">有关各角色第一夜的状况</span></nav>
 
-# 关于第一夜
+# 有关各角色第一夜的状况
 
 |人物|房间|床位|拖痕|睡眠状况/夜晚活动|来源|
 |-|-|-|-|-|-|
