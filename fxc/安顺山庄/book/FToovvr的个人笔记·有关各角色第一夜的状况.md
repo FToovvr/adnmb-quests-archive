@@ -14,7 +14,7 @@
 |「表」叶袅|312|靠门|无|？||
 |万越|312|靠窗|有|💤“我好久没有睡这么「熟」过了”|[拖痕、睡眠](https://ftoovvr.github.io/adnmb-quests-archive/fxc/安顺山庄/book/原文.html#网络信号中断交流昨晚的事睡正对厕所的床的万越脚踝有握痕)|
 ||
-|王明|313|靠门|有|（中午）说着他将手指上的眼屎弹飞倒下睡了。||
+|王明|313|靠门|有|（中午）说着他将手指上的眼屎弹飞倒下睡了。|[睡眠](https://ftoovvr.github.io/adnmb-quests-archive/fxc/安顺山庄/book/原文.html#王明敲不开313门叶袅敲不开512门在大厅瞌睡)|
 |韩沐|313|靠窗|无|💤“我一旦睡着，就会睡的很死…”|[拖痕、睡眠](https://ftoovvr.github.io/adnmb-quests-archive/fxc/安顺山庄/book/原文.html#睡靠门床的王明脚踝有握痕)
 ||
 ||
