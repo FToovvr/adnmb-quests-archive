@@ -46,11 +46,8 @@ jobs:
 
       - name: 渲染跑团串
         run: |
-          # echo "::add-path::$GITHUB_WORKSPACE/tools/thread-renderer"
-          TMPDIR="/tmp/ftoovvr-tmp"
-          echo "::set-env name=TMPDIR::$TMPDIR"
-          mkdir -p "$TMPDIR"
-          "$GITHUB_WORKSPACE/tools/thread-renderer/adnmb-render-thread-dump.py" -c "$GITHUB_WORKSPACE/quest-data/divisions.yaml" -o "$TMPDIR/render-output/book" --log-config="$GITHUB_WORKSPACE/tools/logging.conf"
+          mkdir -p "/tmp/ftoovvr-tmp"
+          "$GITHUB_WORKSPACE/tools/thread-renderer/adnmb-render-thread-dump.py" -c "$GITHUB_WORKSPACE/quest-data/divisions.yaml" -o "/tmp/ftoovvr-tmp/render-output/book" --log-config="$GITHUB_WORKSPACE/tools/logging.conf"
 
       - name: 检出 gh-pages 分支
         uses: actions/checkout@v2
@@ -64,8 +61,8 @@ jobs:
           TARGET_FOLDER="$GITHUB_WORKSPACE/gh-pages/$TARGET_QUEST_PATH"
           rm -rf "$TARGET_FOLDER"
           mkdir -p "$TARGET_FOLDER"
-          mv "${{ env.TMPDIR }}/render-output/book" "$TARGET_FOLDER/"
-          rm -rf "${{ env.TMPDIR }}"
+          mv "/tmp/ftoovvr-tmp/render-output/book" "$TARGET_FOLDER/"
+          rm -rf "/tmp/ftoovvr-tmp"
 
       - name: 提交 gh-pages 分支
         run: |
