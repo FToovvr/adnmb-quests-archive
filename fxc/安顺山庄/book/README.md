@@ -8,7 +8,7 @@
 
 许可：[「善娑大金天」串 P326](https://adnmb3.com/t/28470905?page=326) >>No.29315075
 
-已完结。二周目：[原串](https://adnmb3.com/t/32813851)、[记录](https://ftoovvr.github.io/adnmb-quests-archive/fxc/安顺山庄2/book/index.html)。
+已完结。二周目：[原串](https://adnmb3.com/t/32813851)、[记录](https://ftoovvr.github.io/adnmb-quests-archive/fxc/安顺山庄2/book/)。
 
 <h2 id="%E5%8E%9F%E6%96%87">原文</h2>
 
