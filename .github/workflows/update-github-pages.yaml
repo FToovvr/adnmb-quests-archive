@@ -1,0 +1,83 @@
+name: Update github pages
+
+on:
+  push:
+    branches:
+      - "quests/**"
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  update:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: 检出跑团串数据分支
+        uses: actions/checkout@v2
+        with:
+          path: quest-data
+
+      - name: 检查是否是可以处理的跑团串数据分支
+        run: |
+          if [ ! -f "$GITHUB_WORKSPACE/quest-data/dump/thread.json" ]; then
+            echo "转存文件夹不存在或是未知结构，将退出。"
+            exit 1
+          fi
+          if [ ! -f "$GITHUB_WORKSPACE/quest-data/divisions.yaml" ]; then
+            echo "切割规则文件不存在，将退出。"
+            exit 2
+          fi
+
+      - name: 检出工具仓库
+        uses: actions/checkout@v2
+        with:
+          repository: FToovvr/adnmb-quests-tools
+          path: tools
+
+      - name: 配置 Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+
+      - name: 安装 Python 脚本的依赖
+        run: |
+          pip install -r "$GITHUB_WORKSPACE/tools/thread-renderer/requirements.txt"
+
+      - name: 渲染跑团串
+        run: |
+          # echo "::add-path::$GITHUB_WORKSPACE/tools/thread-renderer"
+          TMPDIR="/tmp/ftoovvr-tmp"
+          echo "::set-env name=TMPDIR::$TMPDIR"
+          mkdir -p "$TMPDIR"
+          "$GITHUB_WORKSPACE/tools/thread-renderer/adnmb-render-thread-dump.py" -c "$GITHUB_WORKSPACE/quest-data/divisions.yaml" -o "$TMPDIR/render-output/book" --log-config="$GITHUB_WORKSPACE/tools/logging.conf"
+
+      - name: 检出 gh-pages 分支
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: 将渲染输出覆盖到 gh-pages 分支相应位置
+        run: |
+          TARGET_QUEST_PATH=${GITHUB_REF#refs/heads/quests/}
+          TARGET_FOLDER="$GITHUB_WORKSPACE/gh-pages/$TARGET_QUEST_PATH"
+          rm -rf "$TARGET_FOLDER"
+          mkdir -p "$TARGET_FOLDER"
+          mv "${{ env.TMPDIR }}/render-output/book" "$TARGET_FOLDER/"
+          rm -rf "${{ env.TMPDIR }}"
+
+      - name: 提交 gh-pages 分支
+        run: |
+          cd "$GITHUB_WORKSPACE/gh-pages"
+          git add --all
+          git config --local user.name "FToovvr (GitHub Actions)"
+          git config --local user.email "FToovvr+gh-actions@protonmail.com"
+          git commit -m "$TARGET_QUEST_PATH: 由「推动到相应跑团串数据分支」触发对应 GitHub Actions 而自动更新"
+
+      - name: 推送 gh-pages 分支
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          branch: "gh-pages"
+          directory: "${{ github.workspace }}/gh-pages"
