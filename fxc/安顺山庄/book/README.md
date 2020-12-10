@@ -8,12 +8,7 @@
 
 许可：[「善娑大金天」串 P326](https://adnmb3.com/t/28470905?page=326) >>No.29315075
 
-已完结，预计会重开。
-
-由另一位肥肥整理的笔记，已开放编辑及评论权限：
-[跑团-安顺山庄 — www.notion.so](https://www.notion.so/6a6dd13260df412a89f9b7b471e19852)  
-初次提及：[原串 P37](https://adnmb3.com/t/29556631?page=37) >>29588417  
-注：现在已经不能无登陆直接查阅，而且似乎也已经好久没有更新了。
+已完结。二周目：[原串](https://adnmb3.com/t/32813851)、[记录](https://ftoovvr.github.io/adnmb-quests-archive/fxc/安顺山庄2/book/index.html)。
 
 <h2 id="%E5%8E%9F%E6%96%87">原文</h2>
 
