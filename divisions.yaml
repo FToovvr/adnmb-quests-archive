@@ -38,4 +38,8 @@ divisions:
               parent-title-matches: 「PO之音」
 
       - title: 第〇日（8月21日）
+        until:
+          id: 33020743
+          text-until: 希望今夜能有个好梦。
+      - title: 第一日（8月22日）
         children:
