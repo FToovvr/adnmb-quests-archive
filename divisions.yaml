@@ -42,4 +42,8 @@ divisions:
           id: 33020743
           text-until: 希望今夜能有个好梦。
       - title: 第一日（8月22日）
+        until:
+          id: 33660793
+          text-until: 似乎不想打击你的积极性。
+      - title: 第一夜
         children:
