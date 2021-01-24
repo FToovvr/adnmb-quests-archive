@@ -46,4 +46,8 @@ divisions:
           id: 33660793
           text-until: 似乎不想打击你的积极性。
       - title: 第一夜
+        until:
+          id: 34158433
+          text-until: 他是你绝不可以忘记的人。
+      - title: 第二日（8月23日）
         children:
