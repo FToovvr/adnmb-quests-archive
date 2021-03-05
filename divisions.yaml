@@ -50,4 +50,8 @@ divisions:
           id: 34158433
           text-until: 他是你绝不可以忘记的人。
       - title: 第二日（8月23日）
+        until:
+          id: 35431920
+          text-until: 无论如何我都会陪你一起。”
+      - title: 第二夜
         children:
