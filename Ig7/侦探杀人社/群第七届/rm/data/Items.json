@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"animationId":41,"consumable":false,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":20},"description":"","effects":[{"code":11,"dataId":0,"value1":0,"value2":500}],"hitType":0,"iconIndex":184,"itypeId":2,"name":"樱花","note":"","occasion":3,"price":50,"repeats":1,"scope":0,"speed":0,"successRate":100,"tpGain":0},
+{"id":2,"animationId":41,"consumable":false,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":20},"description":"","effects":[{"code":12,"dataId":0,"value1":0,"value2":200}],"hitType":0,"iconIndex":260,"itypeId":2,"name":"鲜鱼","note":"","occasion":3,"price":100,"repeats":1,"scope":0,"speed":0,"successRate":100,"tpGain":0},
+{"id":3,"animationId":100,"consumable":false,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":20},"description":"能够直接打倒敌人的剑\n不想战斗的时候就用吧","effects":[{"code":21,"dataId":1,"value1":1,"value2":0}],"hitType":0,"iconIndex":97,"itypeId":1,"name":"圣剑Ex-Calibre","note":"","occasion":1,"price":200,"repeats":1,"scope":2,"speed":0,"successRate":100,"tpGain":0},
+{"id":4,"animationId":0,"consumable":true,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":20},"description":"","effects":[],"hitType":0,"iconIndex":0,"itypeId":1,"name":"","note":"","occasion":0,"price":0,"repeats":1,"scope":7,"speed":0,"successRate":100,"tpGain":0}
+]
