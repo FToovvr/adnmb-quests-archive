@@ -1,0 +1,6 @@
+[
+null,
+{"id":1,"battlerName":"White","characterIndex":0,"characterName":"White","classId":5,"equips":[2,0,0,0,0],"faceIndex":0,"faceName":"White","traits":[{"code":23,"dataId":0,"value":0.2}],"initialLevel":1,"maxLevel":99,"name":"盖蕊","nickname":"盖蕊","note":"","profile":""},
+{"id":2,"battlerName":"Black","characterIndex":0,"characterName":"Black","classId":6,"equips":[1,0,0,0,0],"faceIndex":0,"faceName":"Black","traits":[{"code":23,"dataId":0,"value":0.2}],"initialLevel":1,"maxLevel":99,"name":"闻人行","nickname":"闻人行","note":"","profile":""},
+{"id":3,"battlerName":"Gold","characterIndex":0,"characterName":"Gold","classId":7,"equips":[3,0,0,0,0],"faceIndex":0,"faceName":"Gold","traits":[{"code":23,"dataId":0,"value":10}],"initialLevel":1,"maxLevel":99,"name":"诺露瓦","nickname":"诺露瓦","note":"","profile":""}
+]
